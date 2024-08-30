@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: "Matemasie", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+/* Header, Footer */
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+
+/* Header styles */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 1.5em;
+    align-items: left;
+}
+
+
+
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+h1 {
+  color: white;
+  text-align: left;
+  padding: 0 30px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+  text-align: right;
+  padding: 0 10px;
+  }
+
+/* Section Styles */
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+section p {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* General Link Styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  
+}
+
+/* Hover State */
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Active State */
+a:active {
+    color: #004085;
+}
+
+/* Visited State */
+a:visited {
+    color: #6c757d;
+}
+
+
+/* Scroll to Top */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
